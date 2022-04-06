@@ -32,7 +32,49 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.bdr {
+  border-right: 1px solid #ACBAD4;
+  height: 300px;
+}
+
+#atb-login {
+  color: white;
+  background-color: #dc2121;
+}
+
+#atb-login:hover {
+  background-color: #2f2f2f;
+}
+
+.at-input {
+  border: 1px solid #ACBAD4;
+  ;
+  height: 35px;
+  width: 353px;
+  border-radius: 7px;
+  top: 81px;
+  margin: auto;
+}
+
+.iconify {
+  height: 30px;
+  width: 70px;
+  /* margin-left:1px;  */
+  /* margin-top:auto; */
+  /* margin-right: 10px; */
+  padding-right: 40px;
+  padding-top: 2px;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* @media only screen and (max-width:576px) {} */

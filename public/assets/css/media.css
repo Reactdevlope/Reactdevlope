@@ -1,0 +1,143 @@
+:root {
+  --bs-font-size-6: 6px;
+  --bs-font-size-8: 8px;
+  --bs-font-size-10: 10px;
+  --bs-font-size-11: 11px;
+  --bs-font-size-12: 12px;
+  --bs-font-size-13: 13px;
+  --bs-font-size-14: 14px;
+  --bs-font-size-16: 16px;
+  --bs-font-size-24: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .atb-welcome-heading {
+    font-size: var(--bs-font-size-14);
+  }
+
+  .atb-features-container {
+    padding-bottom: 60px;
+    padding-top: 30px;
+  }
+
+  .atb-features-container p, h5 {
+    font-size: var(--bs-font-size-14);
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+
+  .atb-features-container h5 {
+    font-size: var(--bs-font-size-14);
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  /* About family */
+  .atb-aboutus-form-label {
+    font-size: var(--bs-font-size-8);
+  }
+
+  .atb-family-heading {
+    font-size: var(--bs-font-size-10);
+  }
+
+  /* BelovedPerson.js */
+  .atb-name-of-person {
+    font-size: var(--bs-font-size-6);
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  /* SiteDashboard.js */
+  .atb-site-menu {
+    font-size: var(--bs-font-size-14);
+    line-height: 24px;
+  }
+
+  .atb-person-5 {
+    margin-top: 15px;
+  }
+
+  .atb-person-6 {
+    margin-top: 15px;
+  }
+}
+
+/* Loginpage media query */
+@media only screen and (max-width:380px) {
+  #atb-login {
+    font-size: var(--bs-font-size-10);
+  }
+
+  #atb-forgot-password {
+    font-size: var(--bs-font-size-11);
+  }
+
+  .atb-border {
+    font-size: var(--bs-font-size-12);
+  }
+
+  #atb-instruction {
+    font-size: var(--bs-font-size-13);
+  }
+}
+
+/* Visitors homepage*/
+@media (max-width: 575.98px) {
+  
+  .atb-site .nav-link {
+    font-size: var(--bs-font-size-8);
+  }
+
+  .atb-site ul li:nth-child(3) {
+    display: none;
+  }
+
+  .atb-site ul li:nth-child(4) {
+    display: none;
+  }
+
+  /* Loginpage media query */
+  .atb-vertical {
+    border-left: none;
+  }
+  /* Eventnpage media query */
+  .atb-event-img{
+width:100%;  
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  .atb-site .nav-link {
+    font-size: var(--bs-font-size-8);
+  }
+
+  .atb-site ul li:nth-child(3) {
+    display: none;
+  }
+
+  .atb-site ul li:nth-child(4) {
+    display: none;
+  }
+
+  /* Loginpage media query */
+  .atb-vertical {
+    border-left: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mtop {
+    margin-top: 75%;
+  }
+  
+  .atb-login-text {
+    font-size: var(--bs-font-size-14);
+  }
+
+  .atb-personal {
+    font-size: var(--bs-font-size-14);
+    text-align: center;
+  } 
+}
